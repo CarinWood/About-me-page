@@ -9,6 +9,11 @@
     src: url('./assets/fonts/Parisienne-Regular.ttf');
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
 body {
     background-color: whitesmoke;
     display: flex;
@@ -17,14 +22,14 @@ body {
     align-items: center;
 }
 
-header {
+.banner {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 80%;
 }
 
-.header-text {
+.banner-text {
     font-family: "Parisienne";
     font-size: 50px;
     width: 300px;
@@ -34,7 +39,7 @@ header {
     margin-top: 23px;
 }
 
-.line-1 {
+.line {
     margin-top: 50px;
     margin-left: 50px;
     height: 1px;
@@ -43,6 +48,34 @@ header {
     opacity: 0.9;
 }
 
-.pic {
-    
+header {
+    width: 80%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.pic {
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 100px;
+}
+
+.header-text {
+    margin-left: 100px;
+    height: 480px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: "Montserrat";
+    font-size: 20px;
+}
+
+.header-text p {
+    margin-bottom: 20px;
+}
+
