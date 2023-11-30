@@ -83,3 +83,44 @@ header {
     margin-top: 100px;
 }
 
+footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.github-logo, .linkedin-logo, .youtube-logo {
+    width: 40px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin: 10px;
+}
+
+.favourites-section {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ol li {
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: "Montserrat";
+    margin: 20px 0px;
+}
+
+
+.footer-text {
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
